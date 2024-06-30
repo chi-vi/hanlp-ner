@@ -59,4 +59,4 @@ def parse_toks(kind):
 ## start app
 if __name__ == '__main__':
     from waitress import serve
-    serve(app, port=5544)
+    serve(app, port=5555)

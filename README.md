@@ -11,7 +11,7 @@
 Thông qua curl:
 
 ```sh
-curl -X POST http://localhost/mtl/1 -d "商品和服务。\n晓美焰来到北京立方庭参观自然语义科技公司"
+curl -X POST http://localhost:5555/mtl/1 -d "商品和服务。\n晓美焰来到北京立方庭参观自然语义科技公司"
 ```
 
 Thông qua python:
@@ -19,7 +19,7 @@ Thông qua python:
 ```py
 import requests
 
-url = "http://localhost/mtl/1"
+url = "http://localhost:5555/mtl/1"
 data = "商品和服务。\n晓美焰来到北京立方庭参观自然语义科技公司"
 headers = {"Content-Type": "text/plain"}
 
